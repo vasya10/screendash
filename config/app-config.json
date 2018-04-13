@@ -1,0 +1,58 @@
+{
+  "jenkins": {
+    "interval": 15,
+    "url": "http://dashboard.myjenkins.com/",
+    "masterBranches": ["master", "stable-1.0.0", "stable-2.0.0"],
+    "queryMasterBranchesOnly": true,
+    "enabled": true
+  },
+  "twitter": {
+    "accessKeys": {
+      "consumer_key": "$consumer_key",
+      "consumer_secret": "$consumer_secret",
+      "access_token_key": "$access_token_key",
+      "access_token_secret": "$access_token_secret"
+    },
+    "displaySearchTerm": "@JavascriptDaily #javascript",
+    "searchTerm": "from:@JavascriptDaily OR #javascript",
+    "interval": 3,
+    "enabled": true
+  },
+  "bitbucket": {
+    "url": "http://dashboard.mybitbucket.com/rest/api/1.0/projects/$project/repos",
+    "auth": "$your-auth-key",
+    "interval": 11,
+    "enabled": true
+  },
+  "jira": {
+    "url": "http://dashboard.myjira.com/rest/api/2/search",
+    "activeSprintUrl": "http://dashboard.myjira.com/rest/agile/1.0/board/2/sprint?state=active",
+    "auth": "$your-auth-key",
+    "issues": {
+      "filters": [
+        {
+          "title": "PROJECT-01",
+          "jql": "project = PROJECT-01"
+        },
+        {
+          "title": "PROJECT-02",
+          "jql": "project = PROJECT-02 AND fixVersion in (1.0.0)"
+        }
+      ]
+    },
+    "sprint": {
+      "filters": [
+        {
+          "title": "Sprint",
+          "jql": "Sprint=",
+          "maxResults": 100
+        }
+      ]
+    },
+    "interval": 9,
+    "enabled": true
+  },
+  "startup_quote": {
+    "enabled": true
+  }
+}

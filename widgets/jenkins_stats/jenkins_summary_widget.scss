@@ -1,0 +1,51 @@
+@import '../../styles/variables';
+
+.widget.jenkins_summary_widget {
+  background: #0B486B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  h1 {
+    color: #FFFFF0;
+  }
+  i {
+    margin-right: 0.3rem;
+  }
+}
+
+.jenkins-container {
+  display: flex;
+  flex-direction: column;
+
+  .jenkins-issue-number {
+    font-size: 32px;
+    text-align: center;
+    margin: 0rem 0rem 2rem 0rem;
+    color: white;
+  }
+
+  .jenkins-issue-subtext {
+    font-size: 1rem;
+    text-align: center;
+    top: -20px;
+    position: relative;
+    color: lightgrey;
+  }
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.jenkins-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.jenkins-pill {
+  flex: 0 0 auto;
+  width: 20%;
+  color: white;
+}

@@ -1,0 +1,43 @@
+@import '../../styles/variables';
+
+.widget.bitbucket_prs_widget {
+  background: #fc4a1a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  i {
+    margin-right: 0.3rem;
+  }
+}
+
+.bb-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bb-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.bb-name {
+  flex: 0 0 auto;
+  &__authors {
+    margin-left: 0.5rem;
+    color: rgba(255,255,255,0.7);
+    font-size: 0.8rem;
+  }
+  &__subtext {
+    margin-left: 0.1rem;
+    color: rgba(255,255,255,0.7);
+    font-size: 0.8rem;
+  }
+}
+
+.bb-pill {
+  flex: 0 0 auto;
+  width: 12%;
+  &__open {
+    color: white;
+  }
+}

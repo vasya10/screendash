@@ -1,0 +1,4255 @@
+[
+  {
+    "repo": "repo-001",
+    "url": "http://dashboard.myjenkins.com/job/repo-001/",
+    "score": 0,
+    "worstHealth": "Worst health: repo-001 » Build stability: All recent builds failed.",
+    "jobs": [
+      {
+        "name": "master",
+        "url": "http://dashboard.myjenkins.com/job/repo-001/job/master/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-001",
+            "branch": "master",
+            "number": 257,
+            "url": "http://dashboard.myjenkins.com/job/repo-001/job/master/257/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 257,
+              "duration": 819391,
+              "timestamp": 1519426105073,
+              "queueId": 16605,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 1,
+                "skipCount": 0,
+                "totalCount": 41
+              }
+            }
+          },
+          {
+            "repo": "repo-001",
+            "branch": "master",
+            "number": 256,
+            "url": "http://dashboard.myjenkins.com/job/repo-001/job/master/256/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 256,
+              "duration": 825136,
+              "timestamp": 1519425269234,
+              "queueId": 16595,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 41
+              }
+            }
+          },
+          {
+            "repo": "repo-001",
+            "branch": "master",
+            "number": 255,
+            "url": "http://dashboard.myjenkins.com/job/repo-001/job/master/255/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 255,
+              "duration": 745874,
+              "timestamp": 1519423531844,
+              "queueId": 16574,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 41
+              }
+            }
+          },
+          {
+            "repo": "repo-001",
+            "branch": "master",
+            "number": 254,
+            "url": "http://dashboard.myjenkins.com/job/repo-001/job/master/254/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 254,
+              "duration": 1184782,
+              "timestamp": 1519422336723,
+              "queueId": 16555,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 41
+              }
+            }
+          },
+          {
+            "repo": "repo-001",
+            "branch": "master",
+            "number": 253,
+            "url": "http://dashboard.myjenkins.com/job/repo-001/job/master/253/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 253,
+              "duration": 938135,
+              "timestamp": 1519405002037,
+              "queueId": 16391,
+              "result": "SUCCESS",
+              "cause": "Started by user scooper1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 41
+              }
+            }
+          },
+          {
+            "repo": "repo-001",
+            "branch": "master",
+            "number": 248,
+            "url": "http://dashboard.myjenkins.com/job/repo-001/job/master/248/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 248,
+              "duration": 1361301,
+              "timestamp": 1519266151006,
+              "queueId": 15899,
+              "result": "FAILURE",
+              "cause": "Started by user kbacon1",
+              "robot": {
+                "failCount": 13,
+                "skipCount": 0,
+                "totalCount": 41
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "repo-003",
+    "url": "http://dashboard.myjenkins.com/job/repo-003/",
+    "score": 0,
+    "worstHealth": "Worst health: repo-003 » Build stability: All recent builds failed.",
+    "jobs": [
+      {
+        "name": "master",
+        "url": "http://dashboard.myjenkins.com/job/repo-003/job/master/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-003",
+            "branch": "master",
+            "number": 18,
+            "url": "http://dashboard.myjenkins.com/job/repo-003/job/master/18/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 18,
+              "duration": 108514,
+              "timestamp": 1518220811547,
+              "queueId": 13051,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-003",
+            "branch": "master",
+            "number": 17,
+            "url": "http://dashboard.myjenkins.com/job/repo-003/job/master/17/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 17,
+              "duration": 89444,
+              "timestamp": 1517855418319,
+              "queueId": 11170,
+              "result": "SUCCESS",
+              "cause": "Started by user hford1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-003",
+            "branch": "master",
+            "number": 16,
+            "url": "http://dashboard.myjenkins.com/job/repo-003/job/master/16/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 16,
+              "duration": 89045,
+              "timestamp": 1516651959049,
+              "queueId": 7276,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-003",
+            "branch": "master",
+            "number": 15,
+            "url": "http://dashboard.myjenkins.com/job/repo-003/job/master/15/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 15,
+              "duration": 83661,
+              "timestamp": 1516321360173,
+              "queueId": 6410,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-003",
+            "branch": "master",
+            "number": 14,
+            "url": "http://dashboard.myjenkins.com/job/repo-003/job/master/14/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 14,
+              "duration": 1015169,
+              "timestamp": 1515799473526,
+              "queueId": 4855,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-2.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-003/job/nitrogen/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-003",
+            "branch": "stable-2.0.0",
+            "number": 5,
+            "url": "http://dashboard.myjenkins.com/job/repo-003/job/nitrogen/5/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 5,
+              "duration": 98441,
+              "timestamp": 1518811522417,
+              "queueId": 14855,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-003",
+            "branch": "stable-2.0.0",
+            "number": 4,
+            "url": "http://dashboard.myjenkins.com/job/repo-003/job/nitrogen/4/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 4,
+              "duration": 100693,
+              "timestamp": 1518548588854,
+              "queueId": 13860,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-003",
+            "branch": "stable-2.0.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-003/job/nitrogen/3/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 3,
+              "duration": 98126,
+              "timestamp": 1517942704327,
+              "queueId": 11534,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-003",
+            "branch": "stable-2.0.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-003/job/nitrogen/2/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 2,
+              "duration": 62130,
+              "timestamp": 1517878589177,
+              "queueId": 11319,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-003",
+            "branch": "stable-2.0.0",
+            "number": 1,
+            "url": "http://dashboard.myjenkins.com/job/repo-003/job/nitrogen/1/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 1,
+              "duration": 55651,
+              "timestamp": 1517519207834,
+              "queueId": 10458,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "repo-002",
+    "url": "http://dashboard.myjenkins.com/job/repo-002/",
+    "score": 0,
+    "worstHealth": "Worst health: repo-002 » Build stability: All recent builds failed.",
+    "jobs": [
+      {
+        "name": "master",
+        "url": "http://dashboard.myjenkins.com/job/repo-002/job/master/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-002",
+            "branch": "master",
+            "number": 77,
+            "url": "http://dashboard.myjenkins.com/job/repo-002/job/master/77/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 77,
+              "duration": 1082840,
+              "timestamp": 1519424918164,
+              "queueId": 16590,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 68
+              }
+            }
+          },
+          {
+            "repo": "repo-002",
+            "branch": "master",
+            "number": 76,
+            "url": "http://dashboard.myjenkins.com/job/repo-002/job/master/76/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 76,
+              "duration": 1089843,
+              "timestamp": 1519325900121,
+              "queueId": 16086,
+              "result": "SUCCESS",
+              "cause": "Started by user scooper1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 68
+              }
+            }
+          },
+          {
+            "repo": "repo-002",
+            "branch": "master",
+            "number": 75,
+            "url": "http://dashboard.myjenkins.com/job/repo-002/job/master/75/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 75,
+              "duration": 1134282,
+              "timestamp": 1519324641965,
+              "queueId": 16071,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 1,
+                "skipCount": 0,
+                "totalCount": 68
+              }
+            }
+          },
+          {
+            "repo": "repo-002",
+            "branch": "master",
+            "number": 74,
+            "url": "http://dashboard.myjenkins.com/job/repo-002/job/master/74/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 74,
+              "duration": 1214251,
+              "timestamp": 1519258511812,
+              "queueId": 15834,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 68
+              }
+            }
+          },
+          {
+            "repo": "repo-002",
+            "branch": "master",
+            "number": 73,
+            "url": "http://dashboard.myjenkins.com/job/repo-002/job/master/73/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 73,
+              "duration": 1074721,
+              "timestamp": 1519173351376,
+              "queueId": 15334,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 56
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-2.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-002/job/nitrogen/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-002",
+            "branch": "stable-2.0.0",
+            "number": 5,
+            "url": "http://dashboard.myjenkins.com/job/repo-002/job/nitrogen/5/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 5,
+              "duration": 941166,
+              "timestamp": 1518823828392,
+              "queueId": 14926,
+              "result": "SUCCESS",
+              "cause": "Started by user hford1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 56
+              }
+            }
+          },
+          {
+            "repo": "repo-002",
+            "branch": "stable-2.0.0",
+            "number": 4,
+            "url": "http://dashboard.myjenkins.com/job/repo-002/job/nitrogen/4/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 4,
+              "duration": 936216,
+              "timestamp": 1518822839199,
+              "queueId": 14914,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 2,
+                "skipCount": 0,
+                "totalCount": 56
+              }
+            }
+          },
+          {
+            "repo": "repo-002",
+            "branch": "stable-2.0.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-002/job/nitrogen/3/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 3,
+              "duration": 1291246,
+              "timestamp": 1518636909836,
+              "queueId": 14217,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 56
+              }
+            }
+          },
+          {
+            "repo": "repo-002",
+            "branch": "stable-2.0.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-002/job/nitrogen/2/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 2,
+              "duration": 975106,
+              "timestamp": 1518545728164,
+              "queueId": 13838,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 30
+              }
+            }
+          },
+          {
+            "repo": "repo-002",
+            "branch": "stable-2.0.0",
+            "number": 1,
+            "url": "http://dashboard.myjenkins.com/job/repo-002/job/nitrogen/1/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 1,
+              "duration": 958554,
+              "timestamp": 1517605035938,
+              "queueId": 10885,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 30
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "repo-004",
+    "url": "http://dashboard.myjenkins.com/job/repo-004/",
+    "score": 0,
+    "worstHealth": "Worst health: repo-004 » Build stability: All recent builds failed.",
+    "jobs": [
+      {
+        "name": "master",
+        "url": "http://dashboard.myjenkins.com/job/repo-004/job/master/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-004",
+            "branch": "master",
+            "number": 1,
+            "url": "http://dashboard.myjenkins.com/job/repo-004/job/master/1/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 1,
+              "duration": 26017,
+              "timestamp": 1518583865814,
+              "queueId": 14110,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "repo-005",
+    "url": "http://dashboard.myjenkins.com/job/repo-005/",
+    "score": 0,
+    "worstHealth": "0",
+    "jobs": []
+  },
+  {
+    "repo": "repo-006",
+    "url": "http://dashboard.myjenkins.com/job/repo-006/",
+    "score": 0,
+    "worstHealth": "0",
+    "jobs": []
+  },
+  {
+    "repo": "repo-007",
+    "url": "http://dashboard.myjenkins.com/job/repo-007/",
+    "score": 25,
+    "worstHealth": "Worst health: repo-007 » Build stability: 3 out of the last 4 builds failed.",
+    "jobs": [
+      {
+        "name": "stable-1.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-007/job/carbon/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-007",
+            "branch": "stable-1.0.0",
+            "number": 24,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/carbon/24/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 24,
+              "duration": 26026,
+              "timestamp": 1519548780242,
+              "queueId": 16821,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-007",
+            "branch": "stable-1.0.0",
+            "number": 23,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/carbon/23/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 23,
+              "duration": 26014,
+              "timestamp": 1518943980243,
+              "queueId": 15001,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-007",
+            "branch": "stable-1.0.0",
+            "number": 22,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/carbon/22/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 22,
+              "duration": 25459,
+              "timestamp": 1518339180243,
+              "queueId": 13151,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-007",
+            "branch": "stable-1.0.0",
+            "number": 12,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/carbon/12/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 12,
+              "duration": 267987,
+              "timestamp": 1512291180890,
+              "queueId": 10079,
+              "result": "SUCCESS",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "master",
+        "url": "http://dashboard.myjenkins.com/job/repo-007/job/master/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-007",
+            "branch": "master",
+            "number": 17,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/master/17/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 17,
+              "duration": 131995,
+              "timestamp": 1515531173071,
+              "queueId": 2988,
+              "result": "SUCCESS",
+              "cause": "Started by user jwayne1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-007",
+            "branch": "master",
+            "number": 16,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/master/16/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 16,
+              "duration": 49888,
+              "timestamp": 1515112452714,
+              "queueId": 1824,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-007",
+            "branch": "master",
+            "number": 15,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/master/15/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 15,
+              "duration": 46713,
+              "timestamp": 1515102431982,
+              "queueId": 1617,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-2.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-007/job/nitrogen/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-007",
+            "branch": "stable-2.0.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/nitrogen/3/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 3,
+              "duration": 134240,
+              "timestamp": 1515533865730,
+              "queueId": 3031,
+              "result": "SUCCESS",
+              "cause": "Started by user jwayne1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-007",
+            "branch": "stable-2.0.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/nitrogen/2/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 2,
+              "duration": 27077,
+              "timestamp": 1515531179660,
+              "queueId": 2990,
+              "result": "FAILURE",
+              "cause": "Started by user jwayne1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-007",
+            "branch": "stable-2.0.0",
+            "number": 1,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/nitrogen/1/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 1,
+              "duration": 52193,
+              "timestamp": 1515107776241,
+              "queueId": 1739,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-2.1.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-007/job/stable-2.1.0/",
+        "color": "aborted",
+        "builds": [
+          {
+            "repo": "repo-007",
+            "branch": "stable-2.1.0",
+            "number": 4,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/stable-2.1.0/4/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 4,
+              "duration": 8273,
+              "timestamp": 1512135291856,
+              "queueId": 9444,
+              "result": "ABORTED",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-007",
+            "branch": "stable-2.1.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/stable-2.1.0/3/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 3,
+              "duration": 551825,
+              "timestamp": 1507575511537,
+              "queueId": 11949,
+              "result": "SUCCESS",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-007",
+            "branch": "stable-2.1.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/stable-2.1.0/2/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 2,
+              "duration": 519773,
+              "timestamp": 1507155393847,
+              "queueId": 10244,
+              "result": "SUCCESS",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-3.1.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-007/job/stable-3.1.0/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-007",
+            "branch": "stable-3.1.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/stable-3.1.0/3/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 3,
+              "duration": 129933,
+              "timestamp": 1513478394032,
+              "queueId": 15539,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-007",
+            "branch": "stable-3.1.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/stable-3.1.0/2/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 2,
+              "duration": 74354,
+              "timestamp": 1513475714167,
+              "queueId": 15511,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-007",
+            "branch": "stable-3.1.0",
+            "number": 1,
+            "url": "http://dashboard.myjenkins.com/job/repo-007/job/stable-3.1.0/1/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 1,
+              "duration": 158003,
+              "timestamp": 1513475165219,
+              "queueId": 15489,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "repo-008",
+    "url": "http://dashboard.myjenkins.com/job/repo-008/",
+    "score": 33,
+    "worstHealth": "Worst health: repo-008 » stable-1.0.0: Build stability: 2 out of the last 3 builds failed.",
+    "jobs": [
+      {
+        "name": "stable-1.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-008/job/carbon/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-008",
+            "branch": "stable-1.0.0",
+            "number": 25,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/carbon/25/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 25,
+              "duration": 197269,
+              "timestamp": 1519550520245,
+              "queueId": 16832,
+              "result": "SUCCESS",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-008",
+            "branch": "stable-1.0.0",
+            "number": 24,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/carbon/24/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 24,
+              "duration": 206106,
+              "timestamp": 1518945720241,
+              "queueId": 15012,
+              "result": "SUCCESS",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-008",
+            "branch": "stable-1.0.0",
+            "number": 23,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/carbon/23/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 23,
+              "duration": 204096,
+              "timestamp": 1518340920242,
+              "queueId": 13162,
+              "result": "SUCCESS",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "master",
+        "url": "http://dashboard.myjenkins.com/job/repo-008/job/master/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-008",
+            "branch": "master",
+            "number": 21,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/master/21/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 21,
+              "duration": 122272,
+              "timestamp": 1515607812315,
+              "queueId": 3511,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-008",
+            "branch": "master",
+            "number": 20,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/master/20/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 20,
+              "duration": 118440,
+              "timestamp": 1515533275698,
+              "queueId": 3022,
+              "result": "SUCCESS",
+              "cause": "Started by user jwayne1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-008",
+            "branch": "master",
+            "number": 19,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/master/19/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 19,
+              "duration": 112467,
+              "timestamp": 1515527369598,
+              "queueId": 2965,
+              "result": "SUCCESS",
+              "cause": "Started by user admin",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-2.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-008/job/nitrogen/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-008",
+            "branch": "stable-2.0.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/nitrogen/3/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 3,
+              "duration": 113512,
+              "timestamp": 1515531698844,
+              "queueId": 3000,
+              "result": "SUCCESS",
+              "cause": "Started by user jwayne1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-008",
+            "branch": "stable-2.0.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/nitrogen/2/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 2,
+              "duration": 102661,
+              "timestamp": 1515528272721,
+              "queueId": 2978,
+              "result": "SUCCESS",
+              "cause": "Started by user jwayne1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-008",
+            "branch": "stable-2.0.0",
+            "number": 1,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/nitrogen/1/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 1,
+              "duration": 160739,
+              "timestamp": 1515107774948,
+              "queueId": 1735,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-2.1.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-008/job/stable-2.1.0/",
+        "color": "aborted",
+        "builds": [
+          {
+            "repo": "repo-008",
+            "branch": "stable-2.1.0",
+            "number": 8,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/stable-2.1.0/8/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 8,
+              "duration": 6318,
+              "timestamp": 1515526260916,
+              "queueId": 2938,
+              "result": "ABORTED",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-008",
+            "branch": "stable-2.1.0",
+            "number": 7,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/stable-2.1.0/7/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 7,
+              "duration": 289076,
+              "timestamp": 1507572589786,
+              "queueId": 11882,
+              "result": "FAILURE",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-008",
+            "branch": "stable-2.1.0",
+            "number": 6,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/stable-2.1.0/6/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 6,
+              "duration": 11912,
+              "timestamp": 1507057877253,
+              "queueId": 9564,
+              "result": "ABORTED",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-008",
+            "branch": "stable-2.1.0",
+            "number": 4,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/stable-2.1.0/4/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 4,
+              "duration": 426787,
+              "timestamp": 1503957910728,
+              "queueId": 1485,
+              "result": "SUCCESS",
+              "cause": "Started by user admin",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-3.1.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-008/job/stable-3.1.0/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-008",
+            "branch": "stable-3.1.0",
+            "number": 6,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/stable-3.1.0/6/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 6,
+              "duration": 115990,
+              "timestamp": 1515528263772,
+              "queueId": 2976,
+              "result": "FAILURE",
+              "cause": "Started by user jwayne1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-008",
+            "branch": "stable-3.1.0",
+            "number": 5,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/stable-3.1.0/5/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 5,
+              "duration": 19594,
+              "timestamp": 1515526260992,
+              "queueId": 2939,
+              "result": "FAILURE",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-008",
+            "branch": "stable-3.1.0",
+            "number": 4,
+            "url": "http://dashboard.myjenkins.com/job/repo-008/job/stable-3.1.0/4/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 4,
+              "duration": 116520,
+              "timestamp": 1513472587244,
+              "queueId": 15436,
+              "result": "SUCCESS",
+              "cause": "Started by user admin",
+              "robot": {}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "repo-009",
+    "url": "http://dashboard.myjenkins.com/job/repo-009/",
+    "score": 25,
+    "worstHealth": "Worst health: repo-009 » Build stability: 3 out of the last 4 builds failed.",
+    "jobs": [
+      {
+        "name": "stable-1.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-009/job/carbon/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-009",
+            "branch": "stable-1.0.0",
+            "number": 32,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/carbon/32/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 32,
+              "duration": 31133,
+              "timestamp": 1519554360242,
+              "queueId": 16845,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-009",
+            "branch": "stable-1.0.0",
+            "number": 31,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/carbon/31/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 31,
+              "duration": 26560,
+              "timestamp": 1518949560244,
+              "queueId": 15023,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-009",
+            "branch": "stable-1.0.0",
+            "number": 30,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/carbon/30/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 30,
+              "duration": 26142,
+              "timestamp": 1518344760244,
+              "queueId": 13173,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-009",
+            "branch": "stable-1.0.0",
+            "number": 13,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/carbon/13/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 13,
+              "duration": 341679,
+              "timestamp": 1507589564559,
+              "queueId": 12131,
+              "result": "SUCCESS",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "master",
+        "url": "http://dashboard.myjenkins.com/job/repo-009/job/master/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-009",
+            "branch": "master",
+            "number": 16,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/master/16/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 16,
+              "duration": 287287,
+              "timestamp": 1515607489967,
+              "queueId": 3502,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-009",
+            "branch": "master",
+            "number": 15,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/master/15/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 15,
+              "duration": 313545,
+              "timestamp": 1515534266510,
+              "queueId": 3034,
+              "result": "SUCCESS",
+              "cause": "Started by user jwayne1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-009",
+            "branch": "master",
+            "number": 14,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/master/14/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 14,
+              "duration": 52343,
+              "timestamp": 1515114074804,
+              "queueId": 1855,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-2.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-009/job/nitrogen/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-009",
+            "branch": "stable-2.0.0",
+            "number": 4,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/nitrogen/4/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 4,
+              "duration": 284830,
+              "timestamp": 1515607419230,
+              "queueId": 3497,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-009",
+            "branch": "stable-2.0.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/nitrogen/3/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 3,
+              "duration": 266740,
+              "timestamp": 1515547591491,
+              "queueId": 3267,
+              "result": "SUCCESS",
+              "cause": "Started by user jwayne1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-009",
+            "branch": "stable-2.0.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/nitrogen/2/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 2,
+              "duration": 159266,
+              "timestamp": 1515534270996,
+              "queueId": 3036,
+              "result": "SUCCESS",
+              "cause": "Started by user jwayne1",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-3.2.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-009/job/stable-2.0.0/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-009",
+            "branch": "stable-3.2.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/stable-2.0.0/3/",
+            "buildDetails": {
+              "branch": "stable-3.2.0",
+              "number": 3,
+              "duration": 325028,
+              "timestamp": 1507589564551,
+              "queueId": 12130,
+              "result": "SUCCESS",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-009",
+            "branch": "stable-3.2.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/stable-2.0.0/2/",
+            "buildDetails": {
+              "branch": "stable-3.2.0",
+              "number": 2,
+              "duration": 13540,
+              "timestamp": 1507154816921,
+              "queueId": 10212,
+              "result": "ABORTED",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-009",
+            "branch": "stable-3.2.0",
+            "number": 1,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/stable-2.0.0/1/",
+            "buildDetails": {
+              "branch": "stable-3.2.0",
+              "number": 1,
+              "duration": 322481,
+              "timestamp": 1503959188684,
+              "queueId": 1502,
+              "result": "SUCCESS",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-3.1.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-009/job/stable-3.1.0/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-009",
+            "branch": "stable-3.1.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/stable-3.1.0/2/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 2,
+              "duration": 247064,
+              "timestamp": 1513537514267,
+              "queueId": 15743,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-009",
+            "branch": "stable-3.1.0",
+            "number": 1,
+            "url": "http://dashboard.myjenkins.com/job/repo-009/job/stable-3.1.0/1/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 1,
+              "duration": 294100,
+              "timestamp": 1513535744536,
+              "queueId": 15717,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "repo-010",
+    "url": "http://dashboard.myjenkins.com/job/repo-010/",
+    "score": 0,
+    "worstHealth": "Worst health: repo-010 » Build stability: All recent builds failed.",
+    "jobs": [
+      {
+        "name": "stable-1.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-010/job/carbon/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-010",
+            "branch": "stable-1.0.0",
+            "number": 23,
+            "url": "http://dashboard.myjenkins.com/job/repo-010/job/carbon/23/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 23,
+              "duration": 581587,
+              "timestamp": 1519562520244,
+              "queueId": 16859,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-010",
+            "branch": "stable-1.0.0",
+            "number": 22,
+            "url": "http://dashboard.myjenkins.com/job/repo-010/job/carbon/22/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 22,
+              "duration": 588883,
+              "timestamp": 1518957720240,
+              "queueId": 15040,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-010",
+            "branch": "stable-1.0.0",
+            "number": 21,
+            "url": "http://dashboard.myjenkins.com/job/repo-010/job/carbon/21/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 21,
+              "duration": 595691,
+              "timestamp": 1518352920240,
+              "queueId": 13189,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-010",
+            "branch": "stable-1.0.0",
+            "number": 1,
+            "url": "http://dashboard.myjenkins.com/job/repo-010/job/carbon/1/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 1,
+              "duration": 3421391,
+              "timestamp": 1506578667745,
+              "queueId": 8357,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 100
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "master",
+        "url": "http://dashboard.myjenkins.com/job/repo-010/job/master/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-010",
+            "branch": "master",
+            "number": 48,
+            "url": "http://dashboard.myjenkins.com/job/repo-010/job/master/48/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 48,
+              "duration": 1559012,
+              "timestamp": 1519293875725,
+              "queueId": 16002,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 1,
+                "skipCount": 0,
+                "totalCount": 69
+              }
+            }
+          },
+          {
+            "repo": "repo-010",
+            "branch": "master",
+            "number": 47,
+            "url": "http://dashboard.myjenkins.com/job/repo-010/job/master/47/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 47,
+              "duration": 1400317,
+              "timestamp": 1519271434259,
+              "queueId": 15925,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 1,
+                "skipCount": 0,
+                "totalCount": 69
+              }
+            }
+          },
+          {
+            "repo": "repo-010",
+            "branch": "master",
+            "number": 46,
+            "url": "http://dashboard.myjenkins.com/job/repo-010/job/master/46/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 46,
+              "duration": 1297797,
+              "timestamp": 1519260027224,
+              "queueId": 15844,
+              "result": "FAILURE",
+              "cause": "Started by user aturing1",
+              "robot": {
+                "failCount": 1,
+                "skipCount": 0,
+                "totalCount": 68
+              }
+            }
+          },
+          {
+            "repo": "repo-010",
+            "branch": "master",
+            "number": 45,
+            "url": "http://dashboard.myjenkins.com/job/repo-010/job/master/45/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 45,
+              "duration": 1622617,
+              "timestamp": 1519253226787,
+              "queueId": 15709,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 68
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-2.1.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-010/job/stable-2.1.0/",
+        "color": "aborted",
+        "builds": [
+          {
+            "repo": "repo-010",
+            "branch": "stable-2.1.0",
+            "number": 10,
+            "url": "http://dashboard.myjenkins.com/job/repo-010/job/stable-2.1.0/10/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 10,
+              "duration": 55871,
+              "timestamp": 1518114661889,
+              "queueId": 12266,
+              "result": "ABORTED",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-010",
+            "branch": "stable-2.1.0",
+            "number": 9,
+            "url": "http://dashboard.myjenkins.com/job/repo-010/job/stable-2.1.0/9/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 9,
+              "duration": 2701243,
+              "timestamp": 1506459475934,
+              "queueId": 7653,
+              "result": "FAILURE",
+              "cause": "Branch indexing",
+              "robot": {
+                "failCount": 58,
+                "skipCount": 0,
+                "totalCount": 160
+              }
+            }
+          },
+          {
+            "repo": "repo-010",
+            "branch": "stable-2.1.0",
+            "number": 8,
+            "url": "http://dashboard.myjenkins.com/job/repo-010/job/stable-2.1.0/8/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 8,
+              "duration": 69626,
+              "timestamp": 1505768007174,
+              "queueId": 5373,
+              "result": "ABORTED",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-010",
+            "branch": "stable-2.1.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-010/job/stable-2.1.0/3/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 3,
+              "duration": 1485074,
+              "timestamp": 1503987542164,
+              "queueId": 1684,
+              "result": "SUCCESS",
+              "cause": "Started by user emcgregor1",
+              "robot": {}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "repo-011",
+    "url": "http://dashboard.myjenkins.com/job/repo-011/",
+    "score": 0,
+    "worstHealth": "Worst health: repo-011 » Build stability: All recent builds failed.",
+    "jobs": [
+      {
+        "name": "master",
+        "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 212,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/212/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 212,
+              "duration": 2572076,
+              "timestamp": 1519412764975,
+              "queueId": 16418,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 737
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 211,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/211/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 211,
+              "duration": 2372756,
+              "timestamp": 1519236377536,
+              "queueId": 15533,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 41,
+                "skipCount": 0,
+                "totalCount": 726
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 210,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/210/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 210,
+              "duration": 2227677,
+              "timestamp": 1519234139156,
+              "queueId": 15517,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 57,
+                "skipCount": 0,
+                "totalCount": 726
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 209,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/209/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 209,
+              "duration": 2357059,
+              "timestamp": 1518726824526,
+              "queueId": 14556,
+              "result": "SUCCESS",
+              "cause": "Started by user achipmunk1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 724
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 208,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/208/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 208,
+              "duration": 2385105,
+              "timestamp": 1518580238844,
+              "queueId": 14088,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 724
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 207,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/207/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 207,
+              "duration": 2492557,
+              "timestamp": 1518486038587,
+              "queueId": 13683,
+              "result": "SUCCESS",
+              "cause": "Started by user buzzaldrin1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 725
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 206,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/206/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 206,
+              "duration": 273300,
+              "timestamp": 1518485637285,
+              "queueId": 13680,
+              "result": "FAILURE",
+              "cause": "Started by user buzzaldrin1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 205,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/205/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 205,
+              "duration": 283043,
+              "timestamp": 1518484935139,
+              "queueId": 13672,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 204,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/204/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 204,
+              "duration": 2328516,
+              "timestamp": 1518455469609,
+              "queueId": 13311,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 725
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 203,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/203/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 203,
+              "duration": 2753980,
+              "timestamp": 1518195470759,
+              "queueId": 12764,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 725
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 202,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/202/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 202,
+              "duration": 8728310,
+              "timestamp": 1518130638508,
+              "queueId": 12542,
+              "result": "SUCCESS",
+              "cause": "Started by user buzzaldrin1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 725
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 201,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/201/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 201,
+              "duration": 2312529,
+              "timestamp": 1518125124910,
+              "queueId": 12451,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 1,
+                "skipCount": 0,
+                "totalCount": 725
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 200,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/200/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 200,
+              "duration": 2564725,
+              "timestamp": 1518070612054,
+              "queueId": 12147,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 725
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 199,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/199/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 199,
+              "duration": 2443894,
+              "timestamp": 1518025595666,
+              "queueId": 11867,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 725
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 198,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/198/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 198,
+              "duration": 2588665,
+              "timestamp": 1517962540350,
+              "queueId": 11698,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 725
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 197,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/197/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 197,
+              "duration": 2547382,
+              "timestamp": 1517342919632,
+              "queueId": 9634,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 726
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 196,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/196/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 196,
+              "duration": 3869244,
+              "timestamp": 1516826049394,
+              "queueId": 8263,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 265,
+                "skipCount": 0,
+                "totalCount": 726
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 195,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/195/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 195,
+              "duration": 2295858,
+              "timestamp": 1516646322290,
+              "queueId": 7215,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 8,
+                "skipCount": 0,
+                "totalCount": 726
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 194,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/194/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 194,
+              "duration": 287905,
+              "timestamp": 1516642352078,
+              "queueId": 7145,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "master",
+            "number": 193,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/master/193/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 193,
+              "duration": 3804126,
+              "timestamp": 1515763357150,
+              "queueId": 4537,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 55,
+                "skipCount": 0,
+                "totalCount": 2178
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-3.2.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.0.0/",
+        "color": "aborted",
+        "builds": [
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.2.0",
+            "number": 11,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.0.0/11/",
+            "buildDetails": {
+              "branch": "stable-3.2.0",
+              "number": 11,
+              "duration": 49297,
+              "timestamp": 1514938870084,
+              "queueId": 573,
+              "result": "ABORTED",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.2.0",
+            "number": 10,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.0.0/10/",
+            "buildDetails": {
+              "branch": "stable-3.2.0",
+              "number": 10,
+              "duration": 125693,
+              "timestamp": 1513712745002,
+              "queueId": 16306,
+              "result": "ABORTED",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.2.0",
+            "number": 9,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.0.0/9/",
+            "buildDetails": {
+              "branch": "stable-3.2.0",
+              "number": 9,
+              "duration": 104884,
+              "timestamp": 1513127862008,
+              "queueId": 13708,
+              "result": "FAILURE",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.2.0",
+            "number": 8,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.0.0/8/",
+            "buildDetails": {
+              "branch": "stable-3.2.0",
+              "number": 8,
+              "duration": 28746,
+              "timestamp": 1510697913600,
+              "queueId": 4855,
+              "result": "FAILURE",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.2.0",
+            "number": 7,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.0.0/7/",
+            "buildDetails": {
+              "branch": "stable-3.2.0",
+              "number": 7,
+              "duration": 18773,
+              "timestamp": 1508906593941,
+              "queueId": 16461,
+              "result": "FAILURE",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.2.0",
+            "number": 6,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.0.0/6/",
+            "buildDetails": {
+              "branch": "stable-3.2.0",
+              "number": 6,
+              "duration": 92886,
+              "timestamp": 1508838505550,
+              "queueId": 16069,
+              "result": "ABORTED",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.2.0",
+            "number": 5,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.0.0/5/",
+            "buildDetails": {
+              "branch": "stable-3.2.0",
+              "number": 5,
+              "duration": 22522,
+              "timestamp": 1508449281144,
+              "queueId": 14788,
+              "result": "FAILURE",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.2.0",
+            "number": 4,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.0.0/4/",
+            "buildDetails": {
+              "branch": "stable-3.2.0",
+              "number": 4,
+              "duration": 2691581,
+              "timestamp": 1507061783792,
+              "queueId": 9617,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 665
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.2.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.0.0/3/",
+            "buildDetails": {
+              "branch": "stable-3.2.0",
+              "number": 3,
+              "duration": 2199402,
+              "timestamp": 1506970240888,
+              "queueId": 9197,
+              "result": "FAILURE",
+              "cause": "Started by user aturing1",
+              "robot": {
+                "failCount": 1,
+                "skipCount": 0,
+                "totalCount": 661
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.2.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.0.0/2/",
+            "buildDetails": {
+              "branch": "stable-3.2.0",
+              "number": 2,
+              "duration": 181577,
+              "timestamp": 1506970048649,
+              "queueId": 9195,
+              "result": "FAILURE",
+              "cause": "Started by user aturing1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.2.0",
+            "number": 1,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.0.0/1/",
+            "buildDetails": {
+              "branch": "stable-3.2.0",
+              "number": 1,
+              "duration": 2647679,
+              "timestamp": 1506717331075,
+              "queueId": 8962,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 661
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-4.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-011",
+            "branch": "stable-4.0.0",
+            "number": 13,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1/13/",
+            "buildDetails": {
+              "branch": "stable-4.0.0",
+              "number": 13,
+              "duration": 258917,
+              "timestamp": 1518637546443,
+              "queueId": 14229,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-4.0.0",
+            "number": 12,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1/12/",
+            "buildDetails": {
+              "branch": "stable-4.0.0",
+              "number": 12,
+              "duration": 2085911,
+              "timestamp": 1518582906866,
+              "queueId": 14100,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 713
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-4.0.0",
+            "number": 11,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1/11/",
+            "buildDetails": {
+              "branch": "stable-4.0.0",
+              "number": 11,
+              "duration": 2127668,
+              "timestamp": 1518577229114,
+              "queueId": 14063,
+              "result": "SUCCESS",
+              "cause": "Started by user buzzaldrin1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 714
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-4.0.0",
+            "number": 10,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1/10/",
+            "buildDetails": {
+              "branch": "stable-4.0.0",
+              "number": 10,
+              "duration": 278223,
+              "timestamp": 1518198019937,
+              "queueId": 12760,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-4.0.0",
+            "number": 9,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1/9/",
+            "buildDetails": {
+              "branch": "stable-4.0.0",
+              "number": 9,
+              "duration": 2633311,
+              "timestamp": 1518195374740,
+              "queueId": 12755,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 714
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-4.0.0",
+            "number": 8,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1/8/",
+            "buildDetails": {
+              "branch": "stable-4.0.0",
+              "number": 8,
+              "duration": 2108167,
+              "timestamp": 1518070597367,
+              "queueId": 12142,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 714
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-4.0.0",
+            "number": 7,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1/7/",
+            "buildDetails": {
+              "branch": "stable-4.0.0",
+              "number": 7,
+              "duration": 2219847,
+              "timestamp": 1516826036114,
+              "queueId": 8258,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 714
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-4.0.0",
+            "number": 6,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1/6/",
+            "buildDetails": {
+              "branch": "stable-4.0.0",
+              "number": 6,
+              "duration": 2028763,
+              "timestamp": 1515518070134,
+              "queueId": 2877,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-4.0.0",
+            "number": 5,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1/5/",
+            "buildDetails": {
+              "branch": "stable-4.0.0",
+              "number": 5,
+              "duration": 2209119,
+              "timestamp": 1515088573559,
+              "queueId": 1416,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 714
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-4.0.0",
+            "number": 4,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1/4/",
+            "buildDetails": {
+              "branch": "stable-4.0.0",
+              "number": 4,
+              "duration": 2299423,
+              "timestamp": 1515018986973,
+              "queueId": 1039,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 714
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-4.0.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1/3/",
+            "buildDetails": {
+              "branch": "stable-4.0.0",
+              "number": 3,
+              "duration": 2178053,
+              "timestamp": 1515016797899,
+              "queueId": 1015,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 714
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-4.0.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1/2/",
+            "buildDetails": {
+              "branch": "stable-4.0.0",
+              "number": 2,
+              "duration": 2119633,
+              "timestamp": 1513831025879,
+              "queueId": 17624,
+              "result": "SUCCESS",
+              "cause": "Started by user buzzaldrin1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 714
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-4.0.0",
+            "number": 1,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1/1/",
+            "buildDetails": {
+              "branch": "stable-4.0.0",
+              "number": 1,
+              "duration": 266987,
+              "timestamp": 1513830515866,
+              "queueId": 17610,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-3.3.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 32,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/32/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 32,
+              "duration": 3173670,
+              "timestamp": 1513797276490,
+              "queueId": 17225,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 714
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 31,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/31/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 31,
+              "duration": 35576,
+              "timestamp": 1513712744991,
+              "queueId": 16305,
+              "result": "ABORTED",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 30,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/30/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 30,
+              "duration": 2161793,
+              "timestamp": 1513646388960,
+              "queueId": 16069,
+              "result": "SUCCESS",
+              "cause": "Started by user buzzaldrin1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 714
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 29,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/29/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 29,
+              "duration": 2219519,
+              "timestamp": 1513642443605,
+              "queueId": 16046,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 7,
+                "skipCount": 0,
+                "totalCount": 714
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 28,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/28/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 28,
+              "duration": 2335679,
+              "timestamp": 1513377391704,
+              "queueId": 15020,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 714
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 27,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/27/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 27,
+              "duration": 2738388,
+              "timestamp": 1513372907564,
+              "queueId": 14982,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 714
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 26,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/26/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 26,
+              "duration": 2156081,
+              "timestamp": 1513017906737,
+              "queueId": 12716,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 714
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 25,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/25/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 25,
+              "duration": 2310859,
+              "timestamp": 1512687525408,
+              "queueId": 11692,
+              "result": "SUCCESS",
+              "cause": "Started by user jwayne1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 711
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 24,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/24/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 24,
+              "duration": 273348,
+              "timestamp": 1512687102001,
+              "queueId": 11680,
+              "result": "FAILURE",
+              "cause": "Started by user jwayne1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 23,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/23/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 23,
+              "duration": 2264501,
+              "timestamp": 1512540565685,
+              "queueId": 10945,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 711
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 22,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/22/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 22,
+              "duration": 2412246,
+              "timestamp": 1512154602379,
+              "queueId": 9713,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 711
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 21,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/21/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 21,
+              "duration": 1981124,
+              "timestamp": 1512090640691,
+              "queueId": 9350,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 711
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 20,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/20/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 20,
+              "duration": 3128927,
+              "timestamp": 1512078842984,
+              "queueId": 9152,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 712
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 19,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/19/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 19,
+              "duration": 2025385,
+              "timestamp": 1512076806413,
+              "queueId": 9136,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 692
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 18,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/18/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 18,
+              "duration": 261255,
+              "timestamp": 1511991174317,
+              "queueId": 8545,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 17,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/17/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 17,
+              "duration": 2073649,
+              "timestamp": 1511986419350,
+              "queueId": 8498,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 689
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 16,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/16/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 16,
+              "duration": 2512977,
+              "timestamp": 1511916478002,
+              "queueId": 8212,
+              "result": "SUCCESS",
+              "cause": "Started by user achipmunk1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 689
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 15,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/15/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 15,
+              "duration": 251233,
+              "timestamp": 1511913440074,
+              "queueId": 8185,
+              "result": "FAILURE",
+              "cause": "Started by user achipmunk1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 14,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/14/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 14,
+              "duration": 3917978,
+              "timestamp": 1511904989119,
+              "queueId": 8063,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 689
+              }
+            }
+          },
+          {
+            "repo": "repo-011",
+            "branch": "stable-3.3.0",
+            "number": 13,
+            "url": "http://dashboard.myjenkins.com/job/repo-011/job/stable-2.1.0/13/",
+            "buildDetails": {
+              "branch": "stable-3.3.0",
+              "number": 13,
+              "duration": 1937781,
+              "timestamp": 1511903040297,
+              "queueId": 8035,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 689
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "repo-012",
+    "url": "http://dashboard.myjenkins.com/job/repo-012/",
+    "score": 0,
+    "worstHealth": "Worst health: repo-012 » Build stability: All recent builds failed.",
+    "jobs": [
+      {
+        "name": "stable-1.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-012/job/carbon/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-012",
+            "branch": "stable-1.0.0",
+            "number": 24,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/carbon/24/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 24,
+              "duration": 489274,
+              "timestamp": 1519556940243,
+              "queueId": 16851,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-012",
+            "branch": "stable-1.0.0",
+            "number": 23,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/carbon/23/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 23,
+              "duration": 559245,
+              "timestamp": 1518952140243,
+              "queueId": 15030,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-012",
+            "branch": "stable-1.0.0",
+            "number": 22,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/carbon/22/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 22,
+              "duration": 501190,
+              "timestamp": 1518347340244,
+              "queueId": 13181,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "master",
+        "url": "http://dashboard.myjenkins.com/job/repo-012/job/master/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-012",
+            "branch": "master",
+            "number": 112,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/master/112/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 112,
+              "duration": 821642,
+              "timestamp": 1515759997150,
+              "queueId": 4504,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 1,
+                "skipCount": 0,
+                "totalCount": 30
+              }
+            }
+          },
+          {
+            "repo": "repo-012",
+            "branch": "master",
+            "number": 111,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/master/111/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 111,
+              "duration": 94173,
+              "timestamp": 1515673560966,
+              "queueId": 3974,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-012",
+            "branch": "master",
+            "number": 110,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/master/110/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 110,
+              "duration": 1057960,
+              "timestamp": 1515606139702,
+              "queueId": 3485,
+              "result": "SUCCESS",
+              "cause": "Started by user jwayne1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 10
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-2.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-012/job/nitrogen/",
+        "color": "aborted",
+        "builds": [
+          {
+            "repo": "repo-012",
+            "branch": "stable-2.0.0",
+            "number": 44,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/nitrogen/44/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 44,
+              "duration": 3701035,
+              "timestamp": 1519466340244,
+              "queueId": 16784,
+              "result": "ABORTED",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 2,
+                "skipCount": 0,
+                "totalCount": 30
+              }
+            }
+          },
+          {
+            "repo": "repo-012",
+            "branch": "stable-2.0.0",
+            "number": 43,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/nitrogen/43/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 43,
+              "duration": 1370662,
+              "timestamp": 1519379940244,
+              "queueId": 16367,
+              "result": "SUCCESS",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 30
+              }
+            }
+          },
+          {
+            "repo": "repo-012",
+            "branch": "stable-2.0.0",
+            "number": 42,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/nitrogen/42/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 42,
+              "duration": 750703,
+              "timestamp": 1519293540242,
+              "queueId": 15998,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 1,
+                "skipCount": 0,
+                "totalCount": 30
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-3.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-012/job/stable-3.0.0/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-012",
+            "branch": "stable-3.0.0",
+            "number": 4,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/stable-3.0.0/4/",
+            "buildDetails": {
+              "branch": "stable-3.0.0",
+              "number": 4,
+              "duration": 1635637,
+              "timestamp": 1515626562242,
+              "queueId": 3752,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 20
+              }
+            }
+          },
+          {
+            "repo": "repo-012",
+            "branch": "stable-3.0.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/stable-3.0.0/3/",
+            "buildDetails": {
+              "branch": "stable-3.0.0",
+              "number": 3,
+              "duration": 487103,
+              "timestamp": 1515621749096,
+              "queueId": 3708,
+              "result": "FAILURE",
+              "cause": "Started by user jwayne1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-012",
+            "branch": "stable-3.0.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/stable-3.0.0/2/",
+            "buildDetails": {
+              "branch": "stable-3.0.0",
+              "number": 2,
+              "duration": 164092,
+              "timestamp": 1515620151353,
+              "queueId": 3685,
+              "result": "FAILURE",
+              "cause": "Started by user jwayne1",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-2.1.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-012/job/stable-2.1.0/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-012",
+            "branch": "stable-2.1.0",
+            "number": 11,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/stable-2.1.0/11/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 11,
+              "duration": 460678,
+              "timestamp": 1515621774572,
+              "queueId": 3710,
+              "result": "FAILURE",
+              "cause": "Started by user jwayne1",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-012",
+            "branch": "stable-2.1.0",
+            "number": 10,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/stable-2.1.0/10/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 10,
+              "duration": 13078,
+              "timestamp": 1513794212481,
+              "queueId": 17154,
+              "result": "FAILURE",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-012",
+            "branch": "stable-2.1.0",
+            "number": 9,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/stable-2.1.0/9/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 9,
+              "duration": 14221,
+              "timestamp": 1513364083846,
+              "queueId": 14847,
+              "result": "FAILURE",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-012",
+            "branch": "stable-2.1.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/stable-2.1.0/3/",
+            "buildDetails": {
+              "branch": "stable-2.1.0",
+              "number": 3,
+              "duration": 3356427,
+              "timestamp": 1504051615992,
+              "queueId": 1784,
+              "result": "SUCCESS",
+              "cause": "Started by user kbacon1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 20
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-3.1.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-012/job/stable-3.1.0/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-012",
+            "branch": "stable-3.1.0",
+            "number": 4,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/stable-3.1.0/4/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 4,
+              "duration": 911322,
+              "timestamp": 1513835960069,
+              "queueId": 17662,
+              "result": "SUCCESS",
+              "cause": "Started by user admin",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 10
+              }
+            }
+          },
+          {
+            "repo": "repo-012",
+            "branch": "stable-3.1.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/stable-3.1.0/3/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 3,
+              "duration": 777824,
+              "timestamp": 1513834001115,
+              "queueId": 17648,
+              "result": "FAILURE",
+              "cause": "Started by user admin",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 10
+              }
+            }
+          },
+          {
+            "repo": "repo-012",
+            "branch": "stable-3.1.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-012/job/stable-3.1.0/2/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 2,
+              "duration": 16811,
+              "timestamp": 1513794212497,
+              "queueId": 17155,
+              "result": "FAILURE",
+              "cause": "Branch indexing",
+              "robot": {}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "repo-013",
+    "url": "http://dashboard.myjenkins.com/job/repo-013/",
+    "score": 0,
+    "worstHealth": "Worst health: repo-013 » Build stability: All recent builds failed.",
+    "jobs": [
+      {
+        "name": "stable-1.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-013/job/carbon/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-013",
+            "branch": "stable-1.0.0",
+            "number": 57,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/carbon/57/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 57,
+              "duration": 7786890,
+              "timestamp": 1519549500243,
+              "queueId": 16827,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 20,
+                "skipCount": 0,
+                "totalCount": 2615
+              }
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "stable-1.0.0",
+            "number": 56,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/carbon/56/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 56,
+              "duration": 7999589,
+              "timestamp": 1518944700244,
+              "queueId": 15007,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 13,
+                "skipCount": 0,
+                "totalCount": 2615
+              }
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "stable-1.0.0",
+            "number": 55,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/carbon/55/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 55,
+              "duration": 7456180,
+              "timestamp": 1518339900242,
+              "queueId": 13157,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 19,
+                "skipCount": 0,
+                "totalCount": 2615
+              }
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "stable-1.0.0",
+            "number": 53,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/carbon/53/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 53,
+              "duration": 1288947,
+              "timestamp": 1517602427297,
+              "queueId": 10866,
+              "result": "SUCCESS",
+              "cause": "Started by user emcgregor1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 779
+              }
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "stable-1.0.0",
+            "number": 46,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/carbon/46/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 46,
+              "duration": 1216593,
+              "timestamp": 1516134478001,
+              "queueId": 5496,
+              "result": "SUCCESS",
+              "cause": "Started by user hthomas1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 801
+              }
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "stable-1.0.0",
+            "number": 23,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/carbon/23/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 23,
+              "duration": 1654914,
+              "timestamp": 1508976538627,
+              "queueId": 16913,
+              "result": "SUCCESS",
+              "cause": "Started by user emcgregor1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 815
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "master",
+        "url": "http://dashboard.myjenkins.com/job/repo-013/job/master/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-013",
+            "branch": "master",
+            "number": 210,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/master/210/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 210,
+              "duration": 2550450,
+              "timestamp": 1517528679890,
+              "queueId": 10593,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 958
+              }
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "master",
+            "number": 209,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/master/209/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 209,
+              "duration": 53552,
+              "timestamp": 1517350091164,
+              "queueId": 9691,
+              "result": "ABORTED",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "master",
+            "number": 208,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/master/208/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 208,
+              "duration": 7102930,
+              "timestamp": 1515744337152,
+              "queueId": 4457,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 50,
+                "skipCount": 0,
+                "totalCount": 2863
+              }
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "master",
+            "number": 83,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/master/83/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 83,
+              "duration": 1087536,
+              "timestamp": 1509050479421,
+              "queueId": 17371,
+              "result": "FAILURE",
+              "cause": "Started by user emcgregor1",
+              "robot": {
+                "failCount": 109,
+                "skipCount": 0,
+                "totalCount": 827
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-2.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-013/job/nitrogen/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-013",
+            "branch": "stable-2.0.0",
+            "number": 44,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/nitrogen/44/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 44,
+              "duration": 7179298,
+              "timestamp": 1519459320241,
+              "queueId": 16755,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 6,
+                "skipCount": 0,
+                "totalCount": 2848
+              }
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "stable-2.0.0",
+            "number": 43,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/nitrogen/43/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 43,
+              "duration": 7127505,
+              "timestamp": 1519372920243,
+              "queueId": 16340,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 11,
+                "skipCount": 0,
+                "totalCount": 2848
+              }
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "stable-2.0.0",
+            "number": 42,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/nitrogen/42/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 42,
+              "duration": 7587794,
+              "timestamp": 1519286520240,
+              "queueId": 15956,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 23,
+                "skipCount": 0,
+                "totalCount": 2848
+              }
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "stable-2.0.0",
+            "number": 23,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/nitrogen/23/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 23,
+              "duration": 1302869,
+              "timestamp": 1517442323036,
+              "queueId": 10077,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 964
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-3.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-013/job/stable-3.0.0/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-013",
+            "branch": "stable-3.0.0",
+            "number": 5,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/stable-3.0.0/5/",
+            "buildDetails": {
+              "branch": "stable-3.0.0",
+              "number": 5,
+              "duration": 2716673,
+              "timestamp": 1517528675580,
+              "queueId": 10588,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 2,
+                "skipCount": 0,
+                "totalCount": 757
+              }
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "stable-3.0.0",
+            "number": 4,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/stable-3.0.0/4/",
+            "buildDetails": {
+              "branch": "stable-3.0.0",
+              "number": 4,
+              "duration": 10366,
+              "timestamp": 1517350102372,
+              "queueId": 9706,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "stable-3.0.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/stable-3.0.0/3/",
+            "buildDetails": {
+              "branch": "stable-3.0.0",
+              "number": 3,
+              "duration": 1112044,
+              "timestamp": 1515791696405,
+              "queueId": 4736,
+              "result": "SUCCESS",
+              "cause": "Started by user jwayne1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 757
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-3.1.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-013/job/stable-3.1.0/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-013",
+            "branch": "stable-3.1.0",
+            "number": 9,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/stable-3.1.0/9/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 9,
+              "duration": 2110467,
+              "timestamp": 1517528693972,
+              "queueId": 10598,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 1,
+                "skipCount": 0,
+                "totalCount": 950
+              }
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "stable-3.1.0",
+            "number": 8,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/stable-3.1.0/8/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 8,
+              "duration": 62997,
+              "timestamp": 1517350094703,
+              "queueId": 9696,
+              "result": "ABORTED",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "stable-3.1.0",
+            "number": 7,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/stable-3.1.0/7/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 7,
+              "duration": 1039619,
+              "timestamp": 1513817484892,
+              "queueId": 17488,
+              "result": "SUCCESS",
+              "cause": "Started by user admin",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 950
+              }
+            }
+          },
+          {
+            "repo": "repo-013",
+            "branch": "stable-3.1.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-013/job/stable-3.1.0/2/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 2,
+              "duration": 1053773,
+              "timestamp": 1513471733715,
+              "queueId": 15427,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 950
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "repo-015",
+    "url": "http://dashboard.myjenkins.com/job/repo-015/",
+    "score": 0,
+    "worstHealth": "0",
+    "jobs": [
+      {
+        "name": "master",
+        "url": "http://dashboard.myjenkins.com/job/repo-015/job/master/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-015",
+            "branch": "master",
+            "number": 17,
+            "url": "http://dashboard.myjenkins.com/job/repo-015/job/master/17/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 17,
+              "duration": 72415,
+              "timestamp": 1519433010876,
+              "queueId": 16667,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-015",
+            "branch": "master",
+            "number": 16,
+            "url": "http://dashboard.myjenkins.com/job/repo-015/job/master/16/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 16,
+              "duration": 62664,
+              "timestamp": 1519332193964,
+              "queueId": 16131,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          },
+          {
+            "repo": "repo-015",
+            "branch": "master",
+            "number": 15,
+            "url": "http://dashboard.myjenkins.com/job/repo-015/job/master/15/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 15,
+              "duration": 74673,
+              "timestamp": 1518465765784,
+              "queueId": 13393,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "repo-014",
+    "url": "http://dashboard.myjenkins.com/job/repo-014/",
+    "score": 0,
+    "worstHealth": "Worst health: repo-014 » Build stability: All recent builds failed.",
+    "jobs": [
+      {
+        "name": "stable-1.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-014/job/carbon/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-014",
+            "branch": "stable-1.0.0",
+            "number": 31,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/carbon/31/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 31,
+              "duration": 6565658,
+              "timestamp": 1519554900243,
+              "queueId": 16847,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 12,
+                "skipCount": 0,
+                "totalCount": 3396
+              }
+            }
+          },
+          {
+            "repo": "repo-014",
+            "branch": "stable-1.0.0",
+            "number": 30,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/carbon/30/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 30,
+              "duration": 6542886,
+              "timestamp": 1518950100243,
+              "queueId": 15025,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 22,
+                "skipCount": 0,
+                "totalCount": 3396
+              }
+            }
+          },
+          {
+            "repo": "repo-014",
+            "branch": "stable-1.0.0",
+            "number": 29,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/carbon/29/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 29,
+              "duration": 6508133,
+              "timestamp": 1518345300249,
+              "queueId": 13175,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 12,
+                "skipCount": 0,
+                "totalCount": 3396
+              }
+            }
+          },
+          {
+            "repo": "repo-014",
+            "branch": "stable-1.0.0",
+            "number": 5,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/carbon/5/",
+            "buildDetails": {
+              "branch": "stable-1.0.0",
+              "number": 5,
+              "duration": 1609920,
+              "timestamp": 1508176160435,
+              "queueId": 13841,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 1517
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "master",
+        "url": "http://dashboard.myjenkins.com/job/repo-014/job/master/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-014",
+            "branch": "master",
+            "number": 133,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/master/133/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 133,
+              "duration": 1910452,
+              "timestamp": 1517515161998,
+              "queueId": 10377,
+              "result": "FAILURE",
+              "cause": "Started by user emcgregor1",
+              "robot": {
+                "failCount": 53,
+                "skipCount": 0,
+                "totalCount": 709
+              }
+            }
+          },
+          {
+            "repo": "repo-014",
+            "branch": "master",
+            "number": 132,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/master/132/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 132,
+              "duration": 1784979,
+              "timestamp": 1517513326759,
+              "queueId": 10313,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 57,
+                "skipCount": 0,
+                "totalCount": 709
+              }
+            }
+          },
+          {
+            "repo": "repo-014",
+            "branch": "master",
+            "number": 131,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/master/131/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 131,
+              "duration": 1979962,
+              "timestamp": 1516324318901,
+              "queueId": 6447,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 709
+              }
+            }
+          },
+          {
+            "repo": "repo-014",
+            "branch": "master",
+            "number": 96,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/master/96/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 96,
+              "duration": 2142139,
+              "timestamp": 1513341720892,
+              "queueId": 14774,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 1,
+                "skipCount": 0,
+                "totalCount": 1818
+              }
+            }
+          },
+          {
+            "repo": "repo-014",
+            "branch": "master",
+            "number": 24,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/master/24/",
+            "buildDetails": {
+              "branch": "master",
+              "number": 24,
+              "duration": 2277242,
+              "timestamp": 1507186634104,
+              "queueId": 10466,
+              "result": "SUCCESS",
+              "cause": "Started by user emcgregor1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 1517
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-2.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-014/job/nitrogen/",
+        "color": "red",
+        "builds": [
+          {
+            "repo": "repo-014",
+            "branch": "stable-2.0.0",
+            "number": 41,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/nitrogen/41/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 41,
+              "duration": 3235788,
+              "timestamp": 1519462020243,
+              "queueId": 16770,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 55,
+                "skipCount": 0,
+                "totalCount": 1818
+              }
+            }
+          },
+          {
+            "repo": "repo-014",
+            "branch": "stable-2.0.0",
+            "number": 40,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/nitrogen/40/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 40,
+              "duration": 2837158,
+              "timestamp": 1519375620241,
+              "queueId": 16355,
+              "result": "FAILURE",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 55,
+                "skipCount": 0,
+                "totalCount": 1818
+              }
+            }
+          },
+          {
+            "repo": "repo-014",
+            "branch": "stable-2.0.0",
+            "number": 39,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/nitrogen/39/",
+            "buildDetails": {
+              "branch": "stable-2.0.0",
+              "number": 39,
+              "duration": 4228486,
+              "timestamp": 1519289220241,
+              "queueId": 15974,
+              "result": "SUCCESS",
+              "cause": "Started by timer",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 1818
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-3.0.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-014/job/stable-3.0.0/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-014",
+            "branch": "stable-3.0.0",
+            "number": 3,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/stable-3.0.0/3/",
+            "buildDetails": {
+              "branch": "stable-3.0.0",
+              "number": 3,
+              "duration": 619119,
+              "timestamp": 1517513292741,
+              "queueId": 10308,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 214
+              }
+            }
+          },
+          {
+            "repo": "repo-014",
+            "branch": "stable-3.0.0",
+            "number": 2,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/stable-3.0.0/2/",
+            "buildDetails": {
+              "branch": "stable-3.0.0",
+              "number": 2,
+              "duration": 897662,
+              "timestamp": 1515696316470,
+              "queueId": 4061,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 214
+              }
+            }
+          },
+          {
+            "repo": "repo-014",
+            "branch": "stable-3.0.0",
+            "number": 1,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/stable-3.0.0/1/",
+            "buildDetails": {
+              "branch": "stable-3.0.0",
+              "number": 1,
+              "duration": 60999,
+              "timestamp": 1515479698954,
+              "queueId": 2739,
+              "result": "ABORTED",
+              "cause": "Branch event",
+              "robot": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "stable-3.1.0",
+        "url": "http://dashboard.myjenkins.com/job/repo-014/job/stable-3.1.0/",
+        "color": "blue",
+        "builds": [
+          {
+            "repo": "repo-014",
+            "branch": "stable-3.1.0",
+            "number": 9,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/stable-3.1.0/9/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 9,
+              "duration": 1952667,
+              "timestamp": 1517516559079,
+              "queueId": 10399,
+              "result": "SUCCESS",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 718
+              }
+            }
+          },
+          {
+            "repo": "repo-014",
+            "branch": "stable-3.1.0",
+            "number": 8,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/stable-3.1.0/8/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 8,
+              "duration": 1371274,
+              "timestamp": 1517515177089,
+              "queueId": 10380,
+              "result": "SUCCESS",
+              "cause": "Started by user emcgregor1",
+              "robot": {
+                "failCount": 0,
+                "skipCount": 0,
+                "totalCount": 9
+              }
+            }
+          },
+          {
+            "repo": "repo-014",
+            "branch": "stable-3.1.0",
+            "number": 7,
+            "url": "http://dashboard.myjenkins.com/job/repo-014/job/stable-3.1.0/7/",
+            "buildDetails": {
+              "branch": "stable-3.1.0",
+              "number": 7,
+              "duration": 613206,
+              "timestamp": 1517513172064,
+              "queueId": 10298,
+              "result": "FAILURE",
+              "cause": "Branch event",
+              "robot": {
+                "failCount": 8,
+                "skipCount": 0,
+                "totalCount": 9
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

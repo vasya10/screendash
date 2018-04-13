@@ -1,0 +1,68 @@
+@import '../../styles/variables';
+
+.widget.jira_issues_widget {
+  background: #FC5C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: black;
+  h1 {
+    color: #FFFFF0;
+  }
+  i {
+    margin-right: 0.3rem;
+  }
+}
+
+.jira-container {
+  display: flex;
+  flex-direction: column;
+
+  .jira-issue-number {
+    font-size: 32px;
+    text-align: center;
+    margin: 0rem 0rem 2rem 0rem;
+    color: white;
+  }
+
+  .jira-issue-subtext {
+    font-size: 1rem;
+    text-align: center;
+    top: -20px;
+    position: relative;
+    color: lightgrey;
+  }
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.jira-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.jira-pill {
+  // padding: 0.2rem 0.5rem;
+  // margin-right: 0.5rem;
+  flex: 0 0 auto;
+  width: 20%;
+  color: white;
+  &__open {
+    color: white;
+  }
+  &__major {
+    // color: crimson;
+  }
+  &__unprioritized {
+    color: yellow;
+  }
+  &__inprogress {
+    color: lime;
+  }
+  &__closed {
+    color: #444;
+  }
+}

@@ -1,0 +1,271 @@
+@import '../../styles/variables';
+
+@keyframes mymove {
+  to {
+    flex: 0;
+    flex: 1;
+  }
+}
+
+@-webkit-keyframes mymove {
+  to {
+    flex: .01;
+    flex: .00001;
+  }
+}
+.widget.jenkins_stats_widget {
+
+  background-color: rgba(255,255,255,0.96);
+  color: #000;
+
+  h1 {
+    color: #000;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  li {
+    font-size: 1.3em;
+    line-height: 1.2em;
+  }
+
+  .left {
+    display: inline-block;
+    float: left;
+  }
+
+  .right {
+    display: inline-block;
+    float: right;
+  }
+
+  .repos-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .repo-container {
+    &-column {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 0.5rem;
+      box-sizing: border-box;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 5px 8px;
+    }
+    &-row {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .repo-job-header {
+    padding: 0.25rem 0rem 0.25rem 0.4rem;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6397cc, #c1c1c1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5f2e2e, #c1c1c1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ece9e9;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+  }
+
+  .repo-child {
+    flex: 1 1 auto;
+    &-left {
+      flex: 0 1 auto;
+      width: 16%;
+    }
+    &-right {
+      flex: 1 0 auto;
+      flex-wrap: wrap;
+      width: 82%
+    }
+    &:last-child {
+      border-bottom: none !important;
+    }
+  }
+
+  .branch-job {
+    padding: 0.4rem 0rem 0.4rem 0.4rem;
+    font-size: 1rem;
+  }
+
+  .build-card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .build-card {
+    flex: 0 0 auto;
+    width: $build_card_width;
+    margin: 0rem 0.5rem 0.6rem 0rem;
+    display: flex;
+    flex-direction: column;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 3px 6px;
+    border-radius: 4px;
+    background-color: #FFF;
+    z-index: 1;
+    font-size: 0.8rem;
+    color: rgba(0,0,0,0.7);
+    // transition: all 500ms linear;
+    // animation: mymove 500ms ease forwards;
+
+    .build-number {
+      font-size: 1.2rem;
+    }
+
+    .tests {
+      display: inline-block;
+      text-align: center;
+      &-none {
+        font-size: 1.1rem;
+        color: lightgrey;
+        margin-bottom: 0.3rem;
+      }
+      &-failed {
+        font-size: 1.3rem;
+        color: grey;
+      }
+      &-passed {
+        font-size: 1.2rem;
+        color: darkgrey;
+        &:before {
+          font-family: "FontAwesome";
+          content: '\f14a ';
+          color: #2ED02E;
+        }
+      }
+    }
+
+    .FAILURE-color {
+      // background-color: #ef5350;
+      background: #fffbd5;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color: white;
+      padding-right: 0.25rem;
+      width: 2rem;
+      text-align: center;
+      border-bottom-right-radius: 10px;
+    }
+    .SUCCESS-color {
+      background: #2c3e50;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color: white;
+      width: 2rem;
+      text-align: center;
+      border-bottom-right-radius: 10px;
+    }
+    .DISABLED-color {
+      background-color: black;
+      width: 2rem;
+      text-align: center;
+      border-bottom-right-radius: 10px;
+    }
+    .ABORTED-color {
+      background: #3E5151;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      width: 2rem;
+      text-align: center;
+      border-bottom-right-radius: 10px;
+      color: white;
+    }
+    .RUNNING-color {
+      background: #CAC531;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      width: 2rem;
+      text-align: center;
+      border-bottom-right-radius: 10px;
+      color: black;
+    }
+    .icon-wrapper {
+      border-bottom-left-radius: 10px;
+      border-bottom: 1px solid #fffff0;
+      border-left: 1px solid #fffff0;
+    }
+    .started-by-icon {
+      font-size: 1.3rem;
+      color: #00796B;
+      margin: 0.5rem 0.1rem 0rem 0rem;
+    }
+    .started-by-user {
+      color: #00796B;
+      margin-right: 0.5rem;
+      margin-left: 0.2rem;
+      text-align: center;
+    }
+    .duration {
+      float: left;
+      margin-left: 0.5rem;
+    }
+    .timestamp {
+      float: right;
+      margin-right: 0.5rem;
+    }
+  }
+
+  .branch-job-stats {
+    font-size: 0.8rem;
+    color: darkgrey;
+    .value-hilite {
+      color: #039BE5;
+      font-weight: bolder;
+    }
+    .score-33 {
+      color: red;
+    }
+    .score-66 {
+      color: orange;
+    }
+    .score-100 {
+      color: #2ED02E;
+    }
+  }
+
+  .clickable {
+    cursor: pointer;
+    color: #B0B0B0;
+    &.selected {
+      color: rgba(0,0,255,0.65);
+    }
+  }
+
+  .filters-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #fffcde;
+    border-top: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+  }
+
+  .filters-child {
+    flex: 1 1 auto;
+    margin: 0.8rem;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .filter-summary {
+    font-size: 0.85rem;
+    color: #666;
+  }
+
+  .search-container {
+    input {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      width: 200;
+    }
+  }
+
+}

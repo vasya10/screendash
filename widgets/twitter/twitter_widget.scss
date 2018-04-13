@@ -1,0 +1,41 @@
+@import '../../styles/variables';
+
+.widget.twitter_widget {
+  background-color: #FFF;
+  color: darkgrey;
+  h1 {
+    color: #1DA1F2;
+  }
+  i {
+    margin-right: 0.3rem;
+    color: #1DA1F2;
+  }
+  ul {
+    margin-left: 0rem;
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    list-style: none;
+    flex: 0 0 auto;
+    div {
+      margin: 0.5rem 0rem 0.5rem 0rem;
+      border-bottom: 1px solid lightgrey;
+      box-sizing: border-box;
+      font-size: 14px;
+      a {
+        color: #1DA1F2;
+        text-decoration: none;
+      }
+    }
+    .hilite {
+      background-color: rgba(0,255,0,0.15);
+    }
+  }
+  subtext {
+    color: darkgrey;
+    font-size: 1rem;
+  }
+}

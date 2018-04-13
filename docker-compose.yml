@@ -1,0 +1,20 @@
+version: '3.2'
+
+networks:
+  screendash-net:
+
+services:
+  screendash-ui:
+    image: screendash:latest
+    networks:
+      - screendash-net
+    environment:
+      - REDIS_SERVER_HOST=redis
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./config:/opt/app/config
+  redis:
+    image: redis
+    networks:
+      - screendash-net

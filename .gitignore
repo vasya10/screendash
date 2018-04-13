@@ -1,0 +1,6 @@
+dump.rdb
+node_modules/
+build/
+npm-debug.log
+.vscode/
+.env

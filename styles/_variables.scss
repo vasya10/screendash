@@ -1,0 +1,57 @@
+$build_card_width: 13%;
+
+@media screen and (max-width: 1440px) {
+  $build_card_width: 13%;
+}
+
+@media screen and (min-width: 1441px) {
+  $build_card_width: 10%;
+}
+
+$gutter: 1rem;
+$max_columns: 4;
+
+$bg_color: #616161;
+$color_red_1: #FFCDD2;
+$color_red_2: #D32F2F;
+
+$color_purple_1:  #61AE24;
+$color_purple_2:  #7B1FA2;
+
+$color_violet_1:  #D1C4E9;
+$color_violet_2:  #512DA8;
+
+$color_indigo_1: #C5CAE9;
+$color_indigo_2: #303F9F;
+
+$color_blue_1: #BBDEFB;
+$color_blue_2: #1976D2;
+
+$color_cyan_1: #80DEEA;
+$color_cyan_2: #0097A7;
+
+$color_teal_1: #80CBC4;
+$color_teal_2: #00796B;
+
+$color_green_1: #A5D6A7;
+$color_green_2: #388E3C;
+
+$color_lime_1: #E6EE9C;
+$color_lime_2: #827717;
+
+$color_amber_1: #FFECB3;
+$color_amber_2: #FFA000;
+
+$color_brown_1: #D7CCC8;
+$color_brown_2: #6D4C41;
+
+$color_grey_1: #E0E0E0;
+$color_grey_2: #757575;
+
+$color_bluegrey_1: #CFD8DC;
+$color_bluegrey_2: #455A64;
+
+$color_black_1: #444;
+$color_black_2: #000;
+
+$color_white: #fff;

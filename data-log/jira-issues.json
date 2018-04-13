@@ -1,0 +1,20 @@
+[
+  {
+    "title": "PROJECT-01",
+    "total": 117,
+    "major": 90,
+    "unprioritized": 10,
+    "open": 31,
+    "inprogress": 11,
+    "closed": 75
+  },
+  {
+    "title": "PROJECT-02",
+    "total": 44,
+    "major": 17,
+    "unprioritized": 21,
+    "open": 9,
+    "inprogress": 2,
+    "closed": 33
+  }
+]
